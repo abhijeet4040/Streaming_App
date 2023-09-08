@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const ComponentNavigationDashboard = () => {
+
+export const ComponentHome = () => {
   return (
     <div>
-      
+        
     </div>
   )
 }
-

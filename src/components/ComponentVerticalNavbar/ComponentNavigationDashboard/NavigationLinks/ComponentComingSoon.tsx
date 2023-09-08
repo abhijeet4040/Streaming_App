@@ -1,10 +1,9 @@
 import React from 'react'
 
-export const ComponentNavigationDashboard = () => {
+export const ComponentComingSoon = () => {
   return (
     <div>
-      
+        
     </div>
   )
 }
-

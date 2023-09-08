@@ -2,7 +2,7 @@ import React from 'react'
 import HomePage from './pages/HomePage/HomePage'
 
 
-const App = () => {
+export const App = () => {
   return (
     <div>
       <HomePage/>
@@ -10,4 +10,3 @@ const App = () => {
   )
 }
 
-export default App
