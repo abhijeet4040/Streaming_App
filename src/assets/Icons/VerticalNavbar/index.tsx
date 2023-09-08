@@ -1,0 +1,10 @@
+export {default as CoffeeLogo } from './CoffeeLogo'
+export {default as FilmLogo} from './FilmLogo'
+export {default as FavoriteLogo} from './FavoriteLogo'
+export {default as  TrendingLogo} from './TrendingLogo'
+export {default as CalenderLogo} from './CalenderLogo'
+export {default as UsersLogo} from './UsersLogo'
+export {default as CloudLogo } from './CloudLogo'
+export {default as SlidersLogo } from './SlidersLogo'
+export {default as LogOutLogo } from './LogOutLogo'
+
