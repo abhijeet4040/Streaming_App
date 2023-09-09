@@ -1,5 +1,5 @@
 export { ComponentWatchLogo} from  "./ComponentWatchLogo/ComponentWatchLogo"
 export { ComponentNavigationDashboard} from "./ComponentNavigationDashboard/ComponentNavigationDashboard"
-export { ComponentProfileContolDashboard} from "./ComponentProfileContolDashboard/ComponentProfileContolDashboard"
+export { ComponentProfileControlDashboard} from "./ComponentProfileControlDashboard/ComponentProfileControlDashboard"
 export {ComponentSocialsDashboard} from "./ComponentSocialsDashboard/ComponentSocialsDashboard"
 export {NavButton} from "./components/NavButton/NavButton"

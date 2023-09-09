@@ -3,16 +3,15 @@ import { NavLink } from 'react-router-dom'
 
 interface NavButtonProps {
     NavLogo: JSX.Element
-    NavText: Array<string>
+    NavText: string
+    NavRoute: string
 }
 
-
-
-export const NavButton:React.FC <NavButtonProps> = ( { NavLogo, NavText } ) => {
+export const NavButton:React.FC <NavButtonProps> = ( { NavLogo, NavText,NavRoute } ) => {
   return (
-    <div>
+    <div className='text-white flex'>
         {NavLogo}
-        <NavLink to={'/'}>{NavText}</NavLink>
+        <NavLink to={NavRoute}>{NavText}</NavLink>
     </div>
   )
 }

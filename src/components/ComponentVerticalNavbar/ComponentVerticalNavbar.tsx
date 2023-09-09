@@ -1,12 +1,14 @@
 import React from 'react'
-import { ComponentWatchLogo } from './ComponentWatchLogo/ComponentWatchLogo'
-import { ComponentNavigationDashboard } from '.'
+import { ComponentNavigationDashboard, ComponentWatchLogo, ComponentProfileControlDashboard, ComponentSocialsDashboard } from '.'
+
 
 export const ComponentVerticalNavbar = () => {
   return (
-    <div>
+    <div className=' flex-col bg-black'>
         <ComponentWatchLogo/>
         <ComponentNavigationDashboard/>
+        <ComponentSocialsDashboard/>
+        <ComponentProfileControlDashboard/>
     </div>
   )
 }
