@@ -4,7 +4,7 @@ import { CalenderIcon, FavoriteIcon, FilmIcon, TrendingIcon } from '../../../ass
 
 export const ComponentNavigationDashboard = () => {
   return (
-    <div>
+    <div className='flex flex-col gap-[20px]'>
       <NavButton NavLogo={<FilmIcon/>} NavText='Home' NavRoute='/'/>
       <NavButton NavLogo={<FavoriteIcon/>} NavText='Favorites' NavRoute='/favorites'/>
       <NavButton NavLogo={<TrendingIcon/>} NavText='Trending' NavRoute='/trending'/>

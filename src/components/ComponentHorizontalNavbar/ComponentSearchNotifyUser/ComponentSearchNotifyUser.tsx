@@ -7,15 +7,16 @@ import { MenuButton } from '../components/MenuButton'
 export const ComponentSearchNotifyUser = () => {
   return (
     <>
-      <div>
+    <div className='flex'>
+      <div className='flex'>
       {<SearchIcon/>}
         {<BellIcon/>}
       </div>
-      <div>
+      <div className='flex'>
         {<UserImgIcon/>}
         <MenuButton buttonText='Strawberry'/>
       </div>
-        
+    </div>  
     </>
   )
 }

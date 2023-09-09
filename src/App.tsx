@@ -9,17 +9,20 @@ import { ComponentHorizontalNavbar } from './components/ComponentHorizontalNavba
 
 export const App = () => {
   return (
-  <>
-  <div className='flex'>
-    <ComponentVerticalNavbar/>
-    <ComponentHorizontalNavbar/>
-   <Routes>
-    <Route path='/' element={<HomePage/>}></Route>
-    <Route path='favorites' element={<FavoritesPage/>}></Route>
-    <Route path='trending' element={<Trendingpage/>}></Route>
-   </Routes>
-   </div>
-  </>
+    <>
+    <div className='flex'>
+      <ComponentVerticalNavbar />
+      
+      <div className='flex-col w-[100%]'>
+        <ComponentHorizontalNavbar />
+        <Routes>
+          <Route path='/' element={<HomePage />}></Route>
+          <Route path='favorites' element={<FavoritesPage />}></Route>
+          <Route path='trending' element={<Trendingpage />}></Route>
+        </Routes>
+      </div>
+    </div>
+    </>
   )
 }
 

@@ -4,7 +4,7 @@ import { LogOutIcon, SlidersIcon } from '../../../assets'
 
 export const ComponentProfileControlDashboard = () => {
   return (
-    <div>
+    <div className='flex flex-col gap-[20px]'>
       <NavButton NavLogo={<SlidersIcon/>} NavText='Settings' NavRoute='/settings'></NavButton>
       <NavButton NavLogo={<LogOutIcon/>} NavText='logout' NavRoute='/logout'></NavButton>
     </div>

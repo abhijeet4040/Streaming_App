@@ -3,7 +3,7 @@ import { MenuButton } from '../components/MenuButton'
 
 export const ComponentMenu = () => {
   return (
-    <div>
+    <div className='flex'>
         <MenuButton buttonText='Movies'/>
         <MenuButton buttonText='Series'/>
         <MenuButton buttonText='Documentaries'/>

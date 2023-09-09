@@ -4,7 +4,7 @@ import { ComponentNavigationDashboard, ComponentWatchLogo, ComponentProfileContr
 
 export const ComponentVerticalNavbar = () => {
   return (
-    <div className=' flex-col bg-black'>
+    <div className='flex flex-col bg-black p-[50px] justify-between h-[1000px]'>
         <ComponentWatchLogo/>
         <ComponentNavigationDashboard/>
         <ComponentSocialsDashboard/>

@@ -4,7 +4,7 @@ import { ComponentSearchNotifyUser } from './ComponentSearchNotifyUser/Component
 
 export const ComponentHorizontalNavbar = () => {
   return (
-    <div className='bg-black text-white'>
+    <div className='bg-black text-white flex p-[50px] justify-between'>
       <ComponentMenu/>
       <ComponentSearchNotifyUser/>
     </div>
