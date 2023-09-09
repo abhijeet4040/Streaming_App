@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import '/home/abhijeet/Desktop/Streaming_App/src/utils/FontStyles.css'
 
 interface NavButtonProps {
     NavLogo: JSX.Element
@@ -9,7 +10,7 @@ interface NavButtonProps {
 
 export const NavButton:React.FC <NavButtonProps> = ( { NavLogo, NavText,NavRoute } ) => {
   return (
-    <div className='text-white flex gap-[10px]'>
+    <div className='VerticalNavFont flex gap-[10px]'>
         {NavLogo}
         <NavLink to={NavRoute}>{NavText}</NavLink>
     </div>
