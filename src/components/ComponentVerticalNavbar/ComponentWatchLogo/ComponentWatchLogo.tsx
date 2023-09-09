@@ -1,12 +1,12 @@
 import React from 'react'
 import { NavButton } from '../components/NavButton/NavButton'
-import { CoffeeLogo } from '../../../assets'
+import { CoffeeIcon } from '../../../assets'
 
 export const ComponentWatchLogo = () => {
   
   return (
     <div>
-        <NavButton NavLogo={<CoffeeLogo/>} NavText={'Watch'} NavRoute='/'/>
+        <NavButton NavLogo={<CoffeeIcon/>} NavText={'Watch'} NavRoute='/'/>
     </div>
   )
 }
