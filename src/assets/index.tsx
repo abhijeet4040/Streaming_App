@@ -7,4 +7,8 @@ export { UsersIcon} from './Icons/VerticalNavbar/UsersIcon.tsx'
 export { CloudIcon } from './Icons/VerticalNavbar/CloudIcon'
 export { SlidersIcon } from './Icons/VerticalNavbar/SlidersIcon.tsx'
 export { LogOutIcon } from './Icons/VerticalNavbar/LogOutIcon.tsx'
+export { SearchIcon } from './Icons/HorizontalNavbar/SearchIcon.tsx'
+export { BellIcon } from './Icons/HorizontalNavbar/BellIcon.tsx'
+export {UserImgIcon } from './Icons/HorizontalNavbar/UserImgIcon.tsx'
+
 
