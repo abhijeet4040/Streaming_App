@@ -1,11 +1,11 @@
 import { card1, card2, card3, card4 } from "../assets/Images/TrendingCardImages";
 
 
-export const comingSoonCards = [
+export const TrendingCards = [
     {
       id: 1,
       title: 'Tokyo Train',
-      year: '2022',
+      year: '2023',
       type: 'Action Comedy',
       img: card1,
       description:
@@ -27,7 +27,7 @@ export const comingSoonCards = [
     {
       id: 3,
       title: 'Life In Paris',
-      year: '2022',
+      year: '2021',
       type: 'Sci-fi',
       img: card3,
       description:
@@ -38,7 +38,7 @@ export const comingSoonCards = [
     {
       id: 4,
       title: 'House of Gucci',
-      year: '2022',
+      year: '2020',
       type: 'Drama',
       img: card4,
       description:
