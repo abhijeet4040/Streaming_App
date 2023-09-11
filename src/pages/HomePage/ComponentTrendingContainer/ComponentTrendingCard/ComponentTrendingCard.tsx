@@ -13,7 +13,7 @@ export const ComponentTrendingCard: React.FC<TrendingCardsProps> = ({ TrendingCa
             key={index}
             className='trending-card'
             style={{
-              backgroundImage: `url(${data.img})`,
+              backgroundImage: `url('${data.img}')`,
               backgroundSize: 'cover'
             }}
           >
