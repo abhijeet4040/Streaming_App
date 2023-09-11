@@ -1,12 +1,17 @@
 import React from 'react'
 import { ComponentHeader } from './ComponentHeader/ComponentHeader'
-import { ComponentTrendingContainer } from './ComponentTrendingContainer/ComponentTrendingContainer'
+import { ComponentTitle } from './ComponentTrending/ComponentTitle'
 
 const HomePage = () => {
   return (
-    <div className=''>
+    <div className='flex flex-col'>
       <ComponentHeader/>
-      <ComponentTrendingContainer/>
+      
+      <ComponentTitle />
+      <ComponentTitle/>
+      
+      
+      
     </div>
   )
 }
