@@ -10,7 +10,7 @@ import { TrendingPage } from './pages/TrendingPage/TrendingPage'
 export const App = () => {
   return (
     <>
-    <div className='flex h-[100vh]'>
+    <div className=' h-[100vh] flex flex-col sm:flex-row'>
       <ComponentVerticalNavbar />
       
       <div className='flex-col flex-1 overflow-x-hidden'>

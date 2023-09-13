@@ -1,7 +1,10 @@
 import React from 'react'
+import { ComponentFavorites } from './ComponentFavorites/ComponentFavorites'
 
 export const FavoritesPage = () => {
   return (
-    <div>FavoritesPage</div>
+    <div className=''>
+      <ComponentFavorites/>
+    </div>
   )
 }

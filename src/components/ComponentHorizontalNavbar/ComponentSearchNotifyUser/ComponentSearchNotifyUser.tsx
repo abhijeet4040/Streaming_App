@@ -7,12 +7,12 @@ import { MenuButton } from '../components/MenuButton'
 export const ComponentSearchNotifyUser = () => {
   return (
     <>
-    <div className='flex'>
-      <div className='flex'>
+    <div className='flex gap-[24px]'>
+      <div className='flex gap-[24px]'>
       {<SearchIcon/>}
         {<BellIcon/>}
       </div>
-      <div className='flex'>
+      <div className='flex gap-[10px]'>
         {<UserImgIcon/>}
         <MenuButton buttonText='Strawberry'/>
       </div>

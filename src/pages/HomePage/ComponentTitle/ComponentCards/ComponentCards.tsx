@@ -16,11 +16,12 @@ export const ComponentCards: React.FC<TrendingCardsProps> = ({ Cards, CardWidth}
           <div
             key={index}
             
-            className=' h-[301px]  flex flex-col justify-between rounded-[20px] overflow-hidden'
+            className='h-[301px] no-scrollbar flex flex-col justify-between rounded-[20px] overflow-hidden'
             style={{
               backgroundImage: `url('${data.img}')`,
               backgroundSize: 'cover',
               minWidth: CardWidth
+            
             }}
           >
             <div className='p-[20px] flex justify-end'><ComponentSmallHeart /></div>

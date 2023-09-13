@@ -1,6 +1,6 @@
 import React from 'react'
 import '/home/abhijeet/Desktop/Streaming_App/src/utils/FontStyles.css'
-import { ComponentCards } from './ComponentTitle/ComponentCards'
+import { ComponentCards } from './ComponentCards/ComponentCards'
 import { ComingSoonCards, TrendingCards } from '../../../utils/DummyData'
 
 
@@ -10,7 +10,7 @@ export const ComponentTitle = () => {
       <div className='CardHeadingFont'>Trending</div>
       <ComponentCards Cards={TrendingCards} CardWidth='275px'/>
       <div className='CardHeadingFont'>Coming Soon</div>
-      <ComponentCards Cards={ComingSoonCards} CardWidth='400px'/>
+      <ComponentCards Cards={ComingSoonCards} CardWidth='350px'/>
     </div>
   )
 }
