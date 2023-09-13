@@ -94,7 +94,7 @@ export const TrendingCards = [
     },
   ];
 
-  export const comingSoonCards = [
+  export const ComingSoonCards = [
     {
       key: 1,
       title: "Tokyo Train",
@@ -118,8 +118,41 @@ export const TrendingCards = [
       favourite: false,
     },
     {
+      key: 3,
+      title: "tokyo ghost",
+      year: "2022",
+      type: "Sci-fi",
+      img: Bcard3,
+      description:
+        "The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.",
+      time: "2h 38m",
+      favourite: false,
+    },
+    {
       key: 4,
+      title: "Tokyo Train",
+      year: "2022",
+      type: "Action Comedy",
+      img: Bcard1,
+      description:
+        "The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.",
+      time: "2h 38m",
+      favourite: false,
+    },
+    {
+      key: 5,
       title: "Moonfall",
+      year: "2022",
+      type: "Sci-fi",
+      img: Bcard2,
+      description:
+        "The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.",
+      time: "2h 38m",
+      favourite: false,
+    },
+    {
+      key: 6,
+      title: "tokyo ghost",
       year: "2022",
       type: "Sci-fi",
       img: Bcard3,

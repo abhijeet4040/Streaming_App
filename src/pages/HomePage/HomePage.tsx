@@ -1,6 +1,6 @@
 import React from 'react'
 import { ComponentHeader } from './ComponentHeader/ComponentHeader'
-import { ComponentTitle } from './ComponentTrending/ComponentTitle'
+import { ComponentTitle } from './ComponentTitle/ComponentTitle'
 
 const HomePage = () => {
   return (
@@ -8,7 +8,7 @@ const HomePage = () => {
       <ComponentHeader/>
       
       <ComponentTitle />
-      <ComponentTitle/>
+      
       
       
       
