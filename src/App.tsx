@@ -13,7 +13,7 @@ export const App = () => {
     <div className=' h-[100vh] flex flex-col sm:flex-row'>
       <ComponentVerticalNavbar />
       
-      <div className='flex-col flex-1 overflow-x-hidden'>
+      <div className='flex-col flex-1 sm:overflow-x-hidden'>
         <ComponentHorizontalNavbar />
         <Routes>
           <Route path='/' element={<HomePage />}></Route> 

@@ -10,7 +10,7 @@ interface NavButtonProps {
 
 export const NavButton:React.FC <NavButtonProps> = ( { NavLogo, NavText,NavRoute } ) => {
   return (
-    <div className='VerticalNavFont flex gap-[10px]'>
+    <div className=' flex gap-[10px] '>
         {NavLogo}
         <NavLink to={NavRoute}>{NavText}</NavLink>
     </div>

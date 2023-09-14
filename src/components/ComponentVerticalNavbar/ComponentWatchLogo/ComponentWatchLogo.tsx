@@ -5,7 +5,7 @@ import { CoffeeIcon } from '../../../assets'
 export const ComponentWatchLogo = () => {
   
   return (
-    <div>
+    <div className='WatchNowFont flex '>
         <NavButton NavLogo={<CoffeeIcon/>} NavText={'Watch'} NavRoute='/'/>
     </div>
   )

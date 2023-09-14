@@ -4,7 +4,7 @@ import { CloudIcon, UsersIcon } from '../../../assets'
 
 export const ComponentSocialsDashboard = () => {
   return (
-    <div className='flex flex-col gap-[20px]'>
+    <div className='flex flex-col gap-[20px] VerticalNavFont'>
       <NavButton NavLogo={<UsersIcon/>} NavText='Community' NavRoute='/community'></NavButton>
       <NavButton NavLogo={<CloudIcon/>} NavText='Social' NavRoute='/social'></NavButton>
     </div>
