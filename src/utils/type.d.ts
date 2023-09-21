@@ -13,3 +13,29 @@
 //     year: number,
 //     type: string,
 // }
+
+export type cardType={
+  id:number
+title:string,
+year:string,
+type:string,
+img:string,
+description:string,
+time: string,
+fav:boolean
+}
+
+export type cardsProps = {
+    trendingCards: Array<cardType>,
+    Cards: Array<cardType>;
+    CardWidth: string;
+  }
+
+export type FavoritesState = {
+  favoriteCards: cardType[]
+}
+
+export type TypeComponentCard = {
+  Cards: Array<cardType>;
+  CardWidth: string;
+};

@@ -2,7 +2,6 @@ import { Bcard1, Bcard2, Bcard3 } from "../assets/Images/ComingSoonCardImages";
 import { card1, card2, card3, card4 } from "../assets/Images/TrendingCardImages";
 
 
-
 export const TrendingCards = [
     {
       id: 1,
@@ -13,7 +12,7 @@ export const TrendingCards = [
       description:
         'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion.',
       time: '2h 38m',
-      favorite: false,
+      fav:true,
     },
     {
       id: 2,
@@ -24,7 +23,7 @@ export const TrendingCards = [
       description:
         'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion.',
       time: '2h 38m',
-      favorite: false,
+      fav: false,
     },
     {
       id: 3,
@@ -35,7 +34,7 @@ export const TrendingCards = [
       description:
         'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion',
       time: '2h 38m',
-      favorite: false,
+      fav:false
     },
     {
       id: 4,
@@ -46,10 +45,10 @@ export const TrendingCards = [
       description:
         'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion',
       time: '2h 38m',
-      favorite: false,
+      fav:false
     },
     {
-      id: 1,
+      id: 5,
       title: 'Tokyo Train',
       year: '2023',
       type: 'Action Comedy',
@@ -57,10 +56,10 @@ export const TrendingCards = [
       description:
         'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion.',
       time: '2h 38m',
-      favorite: false,
+      fav:false
     },
     {
-      id: 2,
+      id: 6,
       title: 'Moonfall',
       year: '2022',
       type: 'Sci-fi',
@@ -68,10 +67,10 @@ export const TrendingCards = [
       description:
         'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion.',
       time: '2h 38m',
-      favorite: false,
+      fav:false
     },
     {
-      id: 3,
+      id: 7,
       title: 'Life In Paris',
       year: '2021',
       type: 'Sci-fi',
@@ -79,10 +78,10 @@ export const TrendingCards = [
       description:
         'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion',
       time: '2h 38m',
-      favorite: false,
+      fav:false
     },
     {
-      id: 4,
+      id: 8,
       title: 'House of Gucci',
       year: '2020',
       type: 'Drama',
@@ -90,24 +89,24 @@ export const TrendingCards = [
       description:
         'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion',
       time: '2h 38m',
-      favorite: false,
+      fav:false
     },
   ];
 
   export const ComingSoonCards = [
     {
-      key: 1,
+      id: 9,
       title: "Tokyo Train",
       year: "2022",
-      type: "Action Comedy",
+    type: "Action Comedy",
       img: Bcard1,
       description:
         "The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.",
       time: "2h 38m",
-      favourite: false,
+      fav:false
     },
     {
-      key: 2,
+      id: 10,
       title: "Moonfall",
       year: "2022",
       type: "Sci-fi",
@@ -115,10 +114,10 @@ export const TrendingCards = [
       description:
         "The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.",
       time: "2h 38m",
-      favourite: false,
+      fav:false
     },
     {
-      key: 3,
+      id: 11,
       title: "tokyo ghost",
       year: "2022",
       type: "Sci-fi",
@@ -126,10 +125,10 @@ export const TrendingCards = [
       description:
         "The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.",
       time: "2h 38m",
-      favourite: false,
+      fav:false
     },
     {
-      key: 4,
+      id: 12,
       title: "Tokyo Train",
       year: "2022",
       type: "Action Comedy",
@@ -137,10 +136,10 @@ export const TrendingCards = [
       description:
         "The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.",
       time: "2h 38m",
-      favourite: false,
+      fav:false
     },
     {
-      key: 5,
+      id: 13,
       title: "Moonfall",
       year: "2022",
       type: "Sci-fi",
@@ -148,10 +147,10 @@ export const TrendingCards = [
       description:
         "The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.",
       time: "2h 38m",
-      favourite: false,
+      fav:false
     },
     {
-      key: 6,
+      id: 14,
       title: "tokyo ghost",
       year: "2022",
       type: "Sci-fi",
@@ -159,6 +158,6 @@ export const TrendingCards = [
       description:
         "The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all: a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.",
       time: "2h 38m",
-      favourite: false,
+      fav:false
     },
   ];
